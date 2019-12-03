@@ -10,4 +10,4 @@ function multiply(...args) {
   return res;
 }
 
-console.log(multiply(8, 7, 5));
+module.exports = multiply;

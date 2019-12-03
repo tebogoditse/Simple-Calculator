@@ -9,4 +9,4 @@ function add(...args){
   return sum;
 }
 
-console.log(add(4, 5, 17, 4));
+module.exports = add;
